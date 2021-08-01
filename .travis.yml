@@ -2,5 +2,5 @@ language: ruby
 rvm:
  - 2.2
  - jruby
- install:
-  - npm install
+before_install:
+  - sudo apt-get -y install rake
