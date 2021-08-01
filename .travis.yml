@@ -2,7 +2,7 @@ branches:
   only:
   - gh-pages
   - /.*/
-  language: ruby
+language: ruby
 rvm:
  - 2.2
  - jruby
